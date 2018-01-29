@@ -19,6 +19,11 @@ This will be expanding as we figure out how to properly
 * `ember install ember-query-layer`
 
 ## Planned Usage
+WAIT! Using `model()` isn't really ideal, since it doesn't always get
+called. Was there a new hook called `data()` or something? Or could we
+reopen link-to somehow and check whether the target route has a
+query-layer model hook?
+
 This doesn't work yet! But practicing some README-driven development,
 here's what I'm thinking:
 
